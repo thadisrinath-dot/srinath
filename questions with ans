@@ -1,0 +1,67 @@
+#1 creat an array of integers and print the first element
+import array
+arry = array.array('i',[10,20,30,40,50])
+print("first element:",arr[0])
+print("last element:",arr[-1])
+
+
+
+#2 print the elements from index 2 to 5
+import array
+arr = array.array('i',[10,20,30,40,50,60,70])
+slice_arr = arr[2:5]
+print("sliced array:",slice_arr)
+
+
+
+
+#3 slice with negative indices
+import array
+arr = array.array('i',[10,20,30,40,50,60,70])
+slice_arr = arr[-5:-2]
+print("sliced array with negative indices",slice_arr)
+
+
+
+
+#4 print every second element of the array
+import array
+arr = array.array('i',[10,20,30,40,50,60,70])
+slice_arr = arr[1::2]
+print("every second element:",slice_arr)
+
+
+
+
+
+#5
+import array
+arr = array.array('i',[5,10,15,20,25,30])
+
+#slice first 4 elements
+slice_arr[:4]
+
+# calculate sum using loop
+total = 0
+for num in slicer_arr:
+    total += num
+print("sliced array:",slice)
+print("sum:", total)
+
+
+
+
+#6 reverse array
+import array
+numbers = array.array('i',[1,2,3,4,5])
+reversed_arr = numbers[::-1]
+print("reversed array:", reversed_arr)
+
+
+
+
+# basic operation on array
+print(len(numbers))
+print(sum(numbers))
+print(max(numbers))
+print(min(numbers))

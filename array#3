@@ -1,0 +1,5 @@
+# accessing elements
+import array
+nums = array.array('i',[10,20,30,40])
+print(nums[0])
+print(nums[2])

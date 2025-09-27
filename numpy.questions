@@ -1,0 +1,158 @@
+# Take two numbers as input from the user
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Perform arithmetic operations
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+
+# To avoid division by zero error
+if num2 != 0:
+    division = num1 / num2
+    modulus = num1 % num2
+else:
+    division = "Undefined (division by zero)"
+    modulus = "Undefined (division by zero)"
+
+# Display the results
+print(f"Addition: {num1} + {num2} = {addition}")
+print(f"Subtraction: {num1} - {num2} = {subtraction}")
+print(f"Multiplication: {num1} * {num2} = {multiplication}")
+print(f"Division: {num1} / {num2} = {division}")
+print(f"Modulus: {num1} % {num2} = {modulus}")
+
+
+
+
+
+
+
+
+
+
+##2
+a = 5
+b = 3
+
+a = a + b  # a now becomes 8 (5 + 3)
+b = a - b  # b becomes 5 (8 - 3)
+a = a - b  # a becomes 3 (8 - 5)
+
+print("a =", a)
+print("b =", b)
+
+
+
+
+
+
+
+##3
+# Program to check if two numbers are equal
+
+# Input two numbers from the user
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Check if the numbers are equal using the == operator
+if num1 == num2:
+    print("The numbers are equal.")
+else:
+    print("The numbers are not equal.")
+
+
+
+
+
+
+
+
+
+
+##4
+def reverse_array(arr):
+    start = 0
+    end = len(arr) - 1
+    
+    while start < end:
+        # Swap the elements
+        arr[start], arr[end] = arr[end], arr[start]
+        start += 1
+        end -= 1
+    
+    return arr
+
+
+
+
+
+
+
+
+
+##5
+# Example array
+arr = [10, 20, 30, 40, 50]
+
+# Calculate sum
+total_sum = sum(arr)
+
+# Calculate average
+average = total_sum / len(arr)
+
+print("Sum:", total_sum)
+print("Average:", average)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##6
+# Example array
+arr = [10, 20, 30, 40, 50]
+
+# Calculate sum
+total_sum = sum(arr)
+
+# Calculate average
+average = total_sum / len(arr)
+
+print("Sum:", total_sum)
+print("Average:", average)
+
+
+
+
+
+
+
+
+
+
+
+##7
+import numpy as np
+
+# Define two matrices
+A = np.array([[1, 2],
+              [3, 4]])
+
+B = np.array([[5, 6],
+              [7, 8]])
+
+# Multiply matrices
+C = np.dot(A, B)
+
+print(C)
+
