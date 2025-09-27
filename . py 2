@@ -1,0 +1,14 @@
+## 
+n=int(input("enter a number"))
+def is_even(num):
+    if num % 2 == 0:
+        print("even")
+    else:
+        print("odd")
+
+
+
+
+
+# the function
+n1=int
